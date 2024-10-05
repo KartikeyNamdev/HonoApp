@@ -1,12 +1,13 @@
 import { Hono } from "hono";
 
 const app = new Hono();
+import authMiddleware from "./authMiddleware";
 
 app.get("/", (c) => {
   return c.json({ message: "Hello Hono!" });
 });
 
-app.get("/user", async (c) => {
+app.get("/user", authMiddleware, async (c) => {
   const body = await c.req.json();
   console.log(body);
   console.log(c.req.header("Authorization"));
