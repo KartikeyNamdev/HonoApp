@@ -1,11 +1,10 @@
 # Hono App 🚀
 
-![Hono App Banner](https://your-image-url.com/banner.png)
+
 
 Welcome to the **Hono App** repository! This project is built using **Hono**, a lightweight and high-performance web framework, and deployed on **Cloudflare Workers**. Visit the live app here:  
 🌐 [**my-app.kartikeynamdev2003.workers.dev**](https://my-app.kartikeynamdev2003.workers.dev/)
 
-![Technologies Used](https://your-image-url.com/technologies-banner.png)
 
 ## 🔑 Key Features
 
@@ -14,7 +13,7 @@ Welcome to the **Hono App** repository! This project is built using **Hono**, a 
 - 🛠️ **Easy to Scale**: Simple structure for scaling your web app.
 - 🧩 **Custom Routing**: Easy-to-manage routes for various endpoints.
 
-![Features](https://your-image-url.com/features.png)
+
 
 ---
 
